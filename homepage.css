@@ -5,5 +5,16 @@ body{
 /* Start from the Header */
 #header {
     height: 50px;
-    background-color: #EADEDE;
+    background-color: #eadede;
+}
+
+#social {
+    float: right;
+    margin-right: 1%;
+}
+
+.sh{
+    height:50px;
+    width:50px;
+    position: absolute;
 }
