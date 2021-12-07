@@ -16,5 +16,10 @@ body{
 .sh{
     height:50px;
     width:50px;
+}
+
+#icon{
+    margin-left: 1%;
+    margin-top:-1%;
     position: absolute;
 }
