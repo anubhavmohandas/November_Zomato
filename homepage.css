@@ -1,0 +1,9 @@
+body{
+    margin:auto
+}
+
+/* Start from the Header */
+#header {
+    height: 50px;
+    background-color: #EADEDE;
+}
