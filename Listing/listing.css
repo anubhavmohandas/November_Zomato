@@ -1,0 +1,130 @@
+body{
+    margin:auto;
+}
+/* Start from the Header */
+#header {
+    height: 50px;
+    background-color: #eadede;
+}
+
+#social {
+    float: right;
+    margin-right: 1%;
+}
+
+.socialhandle {
+    height:50px;
+    width:50px;
+}
+
+#icon{
+    margin-left: 1%;
+    margin-top:-1%;
+    position: absolute;
+    color: black !important;
+}
+
+#icon > h1 > a{
+    color: black !important;
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+}
+
+.sort{
+    font-size:20;
+    font-weight:1000;
+    /* line-height:1.5; */
+    margin-top: -13px;
+}
+
+.price{
+    font-size:20;
+    font-weight:600;
+}
+.listingpage{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#listingcontainer{
+    width:80%;
+    height:800px;
+    margin-left: 10%;
+}
+
+#filter{
+    font-size:30;
+    text-align: center; 
+}
+
+.Filtercontainer{
+    width:20%;
+    height:600px;
+    float:left;
+}
+
+.option{
+    font-size:20px;
+    padding-bottom:5px;
+    margin-left: 25;
+}
+
+.label{
+    font-size:20px;
+    padding-bottom:5px;
+    margin-left: 25;
+}
+
+.ContentContainer1{
+    width:74%;
+    height:750px;
+    border-radius: 50;
+    float:left;
+    margin-left:5%;
+}
+
+.ContentContainer2{
+    width:74%;
+    height:750px;
+    border-radius: 50;
+    float:left;
+    margin-left:5%;
+}
+
+.component1{
+    width:100%
+}
+
+.component1 > img{
+    width:33%;
+    float: left;
+    height:225;
+}
+
+.component2{
+    margin-left:330px;
+    justify-content:center;
+}
+
+.fooddescription{
+    font-size: 20px;
+    letter-spacing: 1px;
+    margin:10px 0px;
+    padding:5px;
+
+}
+
+/* footer{
+    background-color:black;
+    color:white;
+    width:100%;
+    margin-right:50%;
+    font-weight: bolder;
+    text-align: center;
+    letter-spacing: 1px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+} */
