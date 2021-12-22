@@ -1,6 +1,6 @@
-/* body{
+body{
     margin:auto
-} */
+}
 
 /* Start from the Header */
 #header {
@@ -28,19 +28,32 @@ a{
 }
 
 /* Search */
+#overlay{
+    display:flex;
+    background:transparent;
+    position: absolute;
+    color: #fff;
+    font-size: 23px;
+    margin-left: 10%;
+    margin-top: 1%;
+}
+
+#overlay > img{
+    height: 30px;
+    
+}
 #search{
     height: 450px;
     background-image: url("https://images.unsplash.com/photo-1457460866886-40ef8d4b42a0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 100%, 100px;
+    border: 2px solid red;
 }
 
 #logo{
     height:150px;
     width:150px;
-    /* background-color: white; */
-    border-radius: 50%;
     margin-left: 600;
     margin-top: 100;
     position: absolute;
@@ -70,14 +83,42 @@ select{
     width:35%
 }
 
+.btn-light{
+    position: absolute;
+    margin-top: 3%;
+    margin-left: 693%;
+    border-radius: 3px;
+    border: 0px none;
+    border: 2px solid white; 
+    background:none; 
+    color: #ffffff;
+    font-size: 14px;
+    /* font-family: Poppins; */
+    font-weight: 500;
+  }
+  .btn-outline-light{
+    position: absolute;
+    margin-top: 3%;
+    margin-left: 735%;
+    border-radius: 3px;
+    border: 2px solid white;  
+    background:none; 
+    color: #ffffff;
+    font-size: 14px;
+    font-family: Poppins;
+    font-weight: 500;
+    padding: 5px;
+  }
+
 /* Quick Search */
 #QuickSearch{
     width:80%;
     margin-right:10%;
-    margin-top:-5%;
+    margin-top:0;
     margin-bottom: 5%;
     display: inline-block;
     /* margin-left: -204px; */
+    border:1px solid red;
 }
 
 #QuickHeading{
@@ -105,8 +146,8 @@ select{
 }
 
 .tileContainer{
-    height:180px;
-    width:30%;
+    height: 240px;;
+    width:22%;
     /* display:inline-block; */
     float:left;
     /* padding: 10%; */
@@ -119,23 +160,29 @@ select{
 
 .tileComponent1{
     width:50%;
-    float: left;
+    justify-content: center;
     height:180px;
 }
 
-.tileComponent1 >img{
-    width:100%;
-    height:180px;
+a > img {
+    width:200%;
+    height:180px;  
 }
+
+.tileComponent1 > img{
+    width:200%;
+    height:180px;  
+}
+
 
 .tileComponent2{
-    width:40%;
+    /* width:40%;
     float: left;
     height:100px;
     margin-left: 5%;
-    margin-top: 12%;
+    margin-top: 12%; */
+    display:inline-block;
 }
-
 .componentHeading{
     color:#ac2e31;
     font-size: 25px;
@@ -155,10 +202,9 @@ footer{
     background-color:black;
     color:white;
     width:100%;
-    margin-right:50%;
     font-weight: bolder;
     text-align: center;
     letter-spacing: 1px;
     padding-top: 10px;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
 }
