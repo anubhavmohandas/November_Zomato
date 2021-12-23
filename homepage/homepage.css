@@ -74,17 +74,13 @@ a{
 }
 
 .dropdown{
-    height:60px;
+    height:0px;
     width:60%;
     margin-left: 30%;
     margin-top: -10%;
     position: absolute;
 }
 
-.dropdown .icon{
-    font-size: 17px;
-    color:rgb(199, 199, 199);
-}
 select{
     height:60px;
     width:35%
@@ -119,10 +115,11 @@ select{
 
 /* Quick Search */
 #QuickSearch{
-    width:80%;
-    margin-right:10%;
-    margin-top:6%;
-    margin-bottom: 5%;
+    width:100%;
+    margin-right:0%;
+    margin-top:10%;
+    margin-bottom: 7%;
+    padding-bottom: 2%;
     display: inline-block;
     /* margin-left: -204px; */
     border:1px solid red;
@@ -148,19 +145,19 @@ select{
     margin-left: 16%;
 }
 
-.mainTile {
+.conatiner {
+    margin-right: 15%;
     margin-left: 15%;
 }
 
 .tileContainer{
     height: 275px;;
-    width:22%;
-    /* display:inline-block; */
+    width:23%;
     float:left;
     /* padding: 10%; */
     margin-top: 2%;
     margin-left: 2%;
-    margin-right:1.3%;
+    margin-right:4%;
     box-shadow: 7px 10px 17px gray;
     border-radius: 10px;
 }
@@ -182,7 +179,8 @@ a > img {
 
 .tileComponent1 > img{
     width:100%;
-    height:180px;  
+    height:180px;
+    border-radius: 10px; 
 }
 
 
@@ -197,6 +195,7 @@ a > img {
 .componentHeading{
     color:#ac2e31;
     font-size: 25px;
+    margin-top:2%;
 }
 
 .componentHeading > a{
@@ -208,6 +207,291 @@ a > img {
     color:gray;
     font-size: 15px;
 }
+
+@media screen and (max-width:1500px){
+    .btn-light{
+        margin-left:735%
+    }
+    .btn-outline-light{
+        margin-left: 785%;
+    }
+
+    .dropdown{
+        height:55px;
+        width:55%;
+        margin-left: 37%;
+        margin-top: -11%;
+    }
+
+    select{
+        height:50px;
+        width:35%
+    }
+
+    #QuickSearch{
+        margin-top:7%;
+    }
+
+    #QuickHeading{
+        margin-left: 12%;
+    }
+
+    #QuickSubHeading{
+        margin-left:12%;
+    }
+}
+
+@media screen and (max-width:1400px){
+    .btn-light{
+        margin-left:725%
+    }
+    .btn-outline-light{
+        margin-left: 775%;
+    }
+
+    .dropdown{
+        height:55px;
+        width:55%;
+        margin-left: 37%;
+        margin-top: -11%;
+    }
+
+    select{
+        height:50px;
+        width:35%
+    }
+
+    #QuickSearch{
+        margin-top:7%;
+    }
+
+    #QuickHeading{
+        margin-left: 11%;
+    }
+
+    #QuickSubHeading{
+        margin-left:11%;
+    }
+}
+
+@media screen and (max-width:1300px){
+    .btn-light{
+        margin-left:650%
+    }
+    .btn-outline-light{
+        margin-left: 700%;
+    }
+
+    #logo{
+        margin-left:522px;
+    }
+
+    #heading{
+        margin-left: 455px;
+    }
+    .dropdown{
+        height:55px;
+        width:55%;
+        margin-left: 37%;
+        margin-top: -13%;
+    }
+
+    select{
+        height:50px;
+        width:33%
+    }
+
+    #QuickSearch{
+        margin-top:9%;
+    }
+
+    #QuickHeading{
+        margin-left: 8%;
+    }
+
+    #QuickSubHeading{
+        margin-left:8%;
+    }
+}
+
+@media screen and (max-width:1200px){
+    .btn-light{
+        margin-left:550%
+    }
+    .btn-outline-light{
+        margin-left: 600%;
+    }
+
+    #logo{
+        margin-left:425px;
+    }
+
+    #heading{
+        margin-left: 395px;
+    }
+    .dropdown{
+        height:55px;
+        width:55%;
+        margin-left: 35%;
+        margin-top: -13%;
+    }
+
+    select{
+        height:50px;
+        width:33%
+    }
+
+    #QuickSearch{
+        margin-top:9%;
+    }
+
+    #QuickHeading{
+        margin-left: 6%;
+    }
+
+    #QuickSubHeading{
+        margin-left:6%;
+    }
+
+}
+
+@media screen and (max-width:1000px){
+        .btn-light{
+            margin-left:400%
+        }
+        .btn-outline-light{
+            margin-left: 450%;
+        }
+
+        #logo{
+            margin-left:330px;
+        }
+
+        #heading{
+            margin-left: 275px;
+        }
+        .dropdown{
+            height:55px;
+            width:55%;
+            margin-left: 30%;
+            margin-top: -17%;
+        }
+
+        select{
+            height:50px;
+            width:37%;
+        }
+
+        #QuickSearch{
+            margin-top:12%;
+        }
+
+        #QuickHeading{
+            margin-left: 7%;
+        }
+
+        #QuickSubHeading{
+            margin-left:7%;
+        }
+
+        .tileContainer{
+            margin-left: 7%;
+            width:35%
+        }
+    }
+
+    @media screen and (max-width:800px){
+        .btn-light{
+            margin-left:350%
+        }
+        .btn-outline-light{
+            margin-left: 400%;
+        }
+    
+        #logo{
+            margin-left:250px;
+        }
+    
+        #heading{
+            margin-left: 205px;
+        }
+        .dropdown{
+            height:55px;
+            width:65%;
+            margin-left: 30%;
+            margin-top: -20%;
+        }
+    
+        select{
+            height:50px;
+            width:37%;
+           }
+    
+        #QuickSearch{
+            margin-top:12%;
+        }
+    
+        #QuickHeading{
+            margin-left: 7%;
+        }
+    
+        #QuickSubHeading{
+            margin-left:7%;
+        }
+    
+        .tileContainer{
+            margin-left: 7%;
+            width:35%
+        }
+    }
+
+ @media screen and (max-width:600px){
+        .btn-light{
+            margin-left:225%
+        }
+        .btn-outline-light{
+            margin-left: 275%;
+        }
+    
+        #logo{
+            margin-left:135px;
+        }
+    
+        #heading{
+            margin-left: 150px;
+            font-size: 32px;
+            margin-top: -220;
+        }
+        .dropdown{
+            height:55px;
+            width:65%;
+            margin-left: 30%;
+            margin-top: -27%;
+        }
+    
+        select{
+            height:50px;
+            width:37%;
+            }
+    
+        #QuickSearch{
+            margin-top:20%;
+        }
+    
+        #QuickHeading{
+            margin-left: 7%;
+        }
+    
+        #QuickSubHeading{
+            margin-left:7%;
+        }
+    
+        .tileContainer{
+            margin-left: 7%;
+            width:50%;
+            padding-bottom:10px;
+        }
+    }
 
 footer{
     background-color:black;
