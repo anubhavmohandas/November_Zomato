@@ -23,12 +23,15 @@ body{
     color:black;
 }
 
-.heading{
+.heading {
     float: right;
     margin-top: -3%;
+    margin-right: 5%;
+    text-decoration: none;
 }
 
-.heading .text-dark{
+.text-dark > a{
     text-decoration: none;
     color:black;
+
 }

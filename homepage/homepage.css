@@ -36,6 +36,7 @@ a{
     font-size: 23px;
     margin-left: 5%;
     margin-top: 1%;
+    width: 95%;
 }
 #overlay a{
     text-decoration: none;
@@ -45,20 +46,21 @@ a{
     height: 30px;
     
 }
-#search{
+#search img{
     height: 450px;
-    background-image: url("https://images.unsplash.com/photo-1457460866886-40ef8d4b42a0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
+    width: 100%;
+    background-image: url("");
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: 100%, 100px;
-    border: 2px solid red;
+    background-size: 100% 450px;
+
 }
 
 #logo{
     height:150px;
     width:150px;
     margin-left: 600;
-    margin-top: 100;
+    margin-top: -375;
     position: absolute;
     font-size:100px;
     color:#ffffff;
@@ -88,8 +90,8 @@ select{
 
 .btn-light{
     position: absolute;
-    margin-top: 3%;
-    margin-left: 750%;
+    margin-top: 0%;
+    margin-left: 75%;
     border-radius: 3px;
     border: 0px none;
     border: 2px solid white; 
@@ -101,8 +103,8 @@ select{
   }
   .btn-outline-light{
     position: absolute;
-    margin-top: 3%;
-    margin-left: 800%;
+    margin-top: 0%;
+    margin-left: 80%;
     border-radius: 3px;
     border: 2px solid white;  
     background:none; 
@@ -122,7 +124,7 @@ select{
     padding-bottom: 2%;
     display: inline-block;
     /* margin-left: -204px; */
-    border:1px solid red;
+
 }
 
 #QuickHeading{
