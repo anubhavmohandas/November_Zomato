@@ -53,7 +53,7 @@ a{
     background-repeat: no-repeat;
     background-size: cover;
     background-size: 100% 450px;
-
+    border: 2px solid red;
 }
 
 #logo{
@@ -124,7 +124,7 @@ select{
     padding-bottom: 2%;
     display: inline-block;
     /* margin-left: -204px; */
-
+    border:1px solid red;
 }
 
 #QuickHeading{
