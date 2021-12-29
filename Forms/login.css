@@ -1,5 +1,6 @@
 body{
     margin:auto;
+    background:white;
 }
 
 #header {
@@ -18,20 +19,60 @@ body{
     text-decoration: none;
 }
 
+
 .zomato a{
     text-decoration: none;
     color:black;
 }
 
-.heading {
-    float: right;
-    margin-top: -3%;
-    margin-right: 5%;
-    text-decoration: none;
+.row {
+    position: relative;
+    background: #fff;
+    border-radius: 25px;
+    height: 500px;
+    width:50%;
+    padding: 25px;
+    padding-left: 50px;
+    border-radius: 25px;
+    box-shadow: 0px 10px 40px -10px rgba(0, 0, 0, 0.7);
+    margin-left:25%;
+  }
+  .row header {
+    color: rgb(226, 43, 43);
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+
+.box {
+    position: relative;
+    margin-bottom: 100px;
 }
 
-.text-dark > a{
-    text-decoration: none;
-    color:black;
+.row .myInput {
+    width: 230px;
+    border-radius: 25px;
+    padding: 10px;
+    padding-left: 50px;
+    border: none;
+    box-shadow: 0px 10px 49px -14px rgba(0, 0, 0, 0.7);
+}
 
+.myForm {
+    position: relative;
+    margin-top: 50px;
+}
+
+.row .fa{
+  position: relative;
+  color: #fd3636;
+  left: 36px;
+}
+
+.btn-danger{
+    width: 230px;
+    border: none;
+    border-radius: 25px;
+    padding: 10px;
+    box-shadow: 0px 10px 41px -11px rgba(0, 0, 0, 0.7);
 }
