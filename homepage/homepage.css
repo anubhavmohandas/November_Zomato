@@ -1,5 +1,6 @@
 body{
-    margin:auto
+    margin:auto;
+    text-decoration: none;
 }
 
 /* Start from the Header */
@@ -91,7 +92,7 @@ select{
 .btn-light{
     position: absolute;
     margin-top: 0%;
-    margin-left: 75%;
+    margin-left: 85%;
     border-radius: 3px;
     border: 0px none;
     border: 0px solid white; 
@@ -104,7 +105,7 @@ select{
   .btn-outline-light{
     position: absolute;
     margin-top: 0%;
-    margin-left: 80%;
+    margin-left: 90%;
     border-radius: 3px;
     border: 2px solid white;  
     background:none; 
@@ -212,10 +213,10 @@ a > img {
 
 @media screen and (max-width:1500px){
     .btn-light{
-        margin-left:735%
+        margin-left:85%
     }
     .btn-outline-light{
-        margin-left: 785%;
+        margin-left: 91%;
     }
 
     .dropdown{
@@ -245,10 +246,10 @@ a > img {
 
 @media screen and (max-width:1400px){
     .btn-light{
-        margin-left:725%
+        margin-left:85%
     }
     .btn-outline-light{
-        margin-left: 775%;
+        margin-left: 91%;
     }
 
     .dropdown{
@@ -278,10 +279,10 @@ a > img {
 
 @media screen and (max-width:1300px){
     .btn-light{
-        margin-left:650%
+        margin-left:85%
     }
     .btn-outline-light{
-        margin-left: 700%;
+        margin-left: 91%;
     }
 
     #logo{
@@ -318,12 +319,11 @@ a > img {
 
 @media screen and (max-width:1200px){
     .btn-light{
-        margin-left:550%
+        margin-left:80%
     }
     .btn-outline-light{
-        margin-left: 600%;
+        margin-left: 89%;
     }
-
     #logo{
         margin-left:425px;
     }
@@ -358,12 +358,12 @@ a > img {
 }
 
 @media screen and (max-width:1000px){
-        .btn-light{
-            margin-left:400%
-        }
-        .btn-outline-light{
-            margin-left: 450%;
-        }
+    .btn-light{
+        margin-left:75%
+    }
+    .btn-outline-light{
+        margin-left: 85%;
+    }
 
         #logo{
             margin-left:330px;
@@ -404,10 +404,10 @@ a > img {
 
     @media screen and (max-width:800px){
         .btn-light{
-            margin-left:350%
+            margin-left:75%
         }
         .btn-outline-light{
-            margin-left: 400%;
+            margin-left: 85%;
         }
     
         #logo{
@@ -448,12 +448,12 @@ a > img {
     }
 
  @media screen and (max-width:600px){
-        .btn-light{
-            margin-left:225%
-        }
-        .btn-outline-light{
-            margin-left: 275%;
-        }
+    .btn-light{
+        margin-left:70%
+    }
+    .btn-outline-light{
+        margin-left: 85%;
+    }
     
         #logo{
             margin-left:135px;
