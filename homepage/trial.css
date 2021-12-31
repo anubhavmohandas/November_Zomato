@@ -33,7 +33,6 @@ a{
     display:flex;
     background:transparent;
     position: absolute;
-    color: #fff;
     font-size: 23px;
     margin-left: 5%;
     margin-top: 1%;
@@ -46,7 +45,14 @@ a{
 #overlay > img{
     height: 30px;
     
-}   
+}
+/* 
+#mybtn a{
+    text-decoration: none;
+    margin-top:-4%;
+    color: #000;  
+} */
+
 #search img{
     height: 450px;
     width: 100%;
@@ -95,8 +101,8 @@ select{
     margin-left: 85%;
     border-radius: 3px;
     border: 0px none;
-    border: 0px solid white; 
-    background:none; 
+    border: 0px solid white;
+    background: none;
     color: #ffffff;
     font-size: 14px;
     /* font-family: Poppins; */
