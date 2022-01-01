@@ -33,7 +33,6 @@ a{
     display:flex;
     background:transparent;
     position: absolute;
-    color: #fff;
     font-size: 23px;
     margin-left: 5%;
     margin-top: 1%;
@@ -44,9 +43,21 @@ a{
     color:#fff;
 }
 #overlay > img{
-    height: 30px;
-    
-}   
+    height: 30px;  
+}
+
+#overlay > .btn-light a{
+    color: #000;
+}
+
+
+/* 
+#mybtn a{
+    text-decoration: none;
+    margin-top:-4%;
+    color: #000;  
+} */
+
 #search img{
     height: 450px;
     width: 100%;
@@ -89,20 +100,18 @@ select{
     width:35%
 }
 
-.btn-light{
+.text-light{
     position: absolute;
     margin-top: 0%;
     margin-left: 85%;
     border-radius: 3px;
-    border: 0px none;
-    border: 0px solid white; 
-    background:none; 
+    background: none;
     color: #ffffff;
-    font-size: 14px;
+    font-size: 21px;
     /* font-family: Poppins; */
-    font-weight: 500;
+    font-weight: 700;
   }
-  .btn-outline-light{
+  .btn-light{
     position: absolute;
     margin-top: 0%;
     margin-left: 90%;
@@ -212,10 +221,10 @@ a > img {
 }
 
 @media screen and (max-width:1500px){
-    .btn-light{
+    .text-light{
         margin-left:85%
     }
-    .btn-outline-light{
+    .btn-light{
         margin-left: 91%;
     }
 
@@ -245,10 +254,10 @@ a > img {
 }
 
 @media screen and (max-width:1400px){
-    .btn-light{
+    .text-light{
         margin-left:85%
     }
-    .btn-outline-light{
+    .btn-light{
         margin-left: 91%;
     }
 
@@ -278,10 +287,10 @@ a > img {
 }
 
 @media screen and (max-width:1300px){
-    .btn-light{
+    .text-light{
         margin-left:85%
     }
-    .btn-outline-light{
+    .btn-light{
         margin-left: 91%;
     }
 
@@ -318,10 +327,10 @@ a > img {
 }
 
 @media screen and (max-width:1200px){
-    .btn-light{
+    .text-light{
         margin-left:80%
     }
-    .btn-outline-light{
+    .btn-light{
         margin-left: 89%;
     }
     #logo{
@@ -358,10 +367,10 @@ a > img {
 }
 
 @media screen and (max-width:1000px){
-    .btn-light{
+    .text-light{
         margin-left:75%
     }
-    .btn-outline-light{
+    .btn-light{
         margin-left: 85%;
     }
 
@@ -403,10 +412,10 @@ a > img {
     }
 
     @media screen and (max-width:800px){
-        .btn-light{
+        .text-light{
             margin-left:75%
         }
-        .btn-outline-light{
+        .btn-light{
             margin-left: 85%;
         }
     
@@ -448,10 +457,10 @@ a > img {
     }
 
  @media screen and (max-width:600px){
-    .btn-light{
+    .text-light{
         margin-left:70%
     }
-    .btn-outline-light{
+    .btn-light{
         margin-left: 85%;
     }
     
