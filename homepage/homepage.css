@@ -93,6 +93,7 @@ a{
     margin-left: 30%;
     margin-top: -10%;
     position: absolute;
+    justify-content: center;
 }
 
 select{
