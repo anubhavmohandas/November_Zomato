@@ -43,9 +43,21 @@ a{
     color:#fff;
 }
 #overlay > img{
-    height: 30px;
-    
+    height: 30px;  
 }
+
+#overlay > .btn-light a{
+    color: #000;
+}
+
+#overlay > .btn-outline-light a{
+    color: #fff;
+}
+
+#overlay > .btn-outline-light a:hover{
+    color: #000;
+}
+
 /* 
 #mybtn a{
     text-decoration: none;
