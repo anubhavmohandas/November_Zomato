@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+        <link href="trial.css" rel="stylesheet" type="text/css" />
+        <style>
+            body{
+                background-color:white;
+                color:black
+            }
+            .mydark{
+                background-color:black;
+                color:white
+            }
+        </style>
+        <script>
+            function changeMode(){
+                var mybody = document.body;
+                mybody.classList.toggle("mydark")
+            }
+        </script>
+
+    </head>
+    <body >
+        <h2>Light Dark Mode</h2>
+        <p>We are working on light dark mode</p>
+        <button onclick="changeMode()"><i class="fa fa-lightbulb"></i></button>
+    </body>
+</html>
