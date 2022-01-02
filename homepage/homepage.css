@@ -28,6 +28,11 @@ a{
     text-decoration: none;
 }
 
+.fa{
+    color: #fff;
+    margin-left:-15%;
+}
+
 /* Search */
 #overlay{
     display:flex;
@@ -43,25 +48,16 @@ a{
     color:#fff;
 }
 #overlay > img{
-    height: 30px;  
+    height: 30px;
 }
 
 #overlay > .btn-light a{
     color: #000;
 }
 
-
-/* 
-#mybtn a{
-    text-decoration: none;
-    margin-top:-4%;
-    color: #000;  
-} */
-
 #search img{
     height: 450px;
     width: 100%;
-    background-image: url("");
     background-repeat: no-repeat;
     background-size: cover;
     background-size: 100% 450px;

@@ -51,7 +51,7 @@ a{
 
 #listingcontainer{
     width:85%;
-    height: 810px;
+    height: 10px;
     margin-left: 5%;
     /* box-shadow: 0px 0px 9px 1px rgb(175 175 175 / 47%); */
     float:left;
@@ -164,6 +164,6 @@ footer{
     text-align: center;
     letter-spacing: 2px;
     padding-top: 10px;
-    padding-bottom: 20px;
-
+    padding-bottom: 10px;
+    display: inline-block;
 }
