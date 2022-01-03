@@ -1,4 +1,533 @@
-.fa{
-    color: #fff;
-    margin-left:-15%;
+/* Style buttons */
+.btn {
+    color: black; /* White text */
+    font-size: 16px; /* Set a font size */
+    cursor: pointer; /* Mouse pointer on hover */
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    overflow: hidden;
+    outline: none;
+    margin-left: -15%;
+}
+
+body{
+    margin:auto;
+    text-decoration: none;
+}
+
+/* Start from the Header */
+#header {
+    height: 50px;
+    background-color: #eadede;
+}
+
+#social {
+    float: right;
+    margin-right: 1%;
+}
+
+.socialhandle {
+    height:50px;
+    width:50px;
+}
+
+#icon{
+    margin-left: 1%;
+    margin-top:-1%;
+    position: absolute;
+}
+a{
+    text-decoration: none;
+}
+
+/* Style buttons */
+.btn {
+    color: white !important; /* White text */
+
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    overflow: hidden;
+    outline: none;
+    margin-left: -15%;
+    margin-top: -0.5%;
+}
+/* Search */
+#overlay{
+    display:flex;
+    background:transparent;
+    position: absolute;
+    font-size: 23px;
+    margin-left: 5%;
+    margin-top: 1%;
+    width: 95%;
+}
+#overlay a{
+    text-decoration: none;
+    color:#fff;
+}
+#overlay > img{
+    height: 30px;
+}
+
+#overlay > .btn-light a{
+    color: #000;
+}
+
+#search img{
+    height: 450px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 100% 450px;
+    border: 2px solid red;
+}
+
+#logo{
+    height:150px;
+    width:150px;
+    margin-left: 600;
+    margin-top: -375;
+    position: absolute;
+    font-size:100px;
+    color:#ffffff;
+    font-weight: bold;
+}
+
+#heading{
+    margin-left: 531;
+    margin-top: -235;
+    position: absolute;
+    font-size:45px;
+    color:white
+}
+
+.dropdown{
+    height:0px;
+    width:60%;
+    margin-left: 30%;
+    margin-top: -10%;
+    position: absolute;
+    justify-content: center;
+}
+
+select{
+    height:60px;
+    width:35%
+}
+
+.text-light{
+    position: absolute;
+    margin-top: 0%;
+    margin-left: 85%;
+    border-radius: 3px;
+    background: none;
+    color: #ffffff;
+    font-size: 21px;
+    /* font-family: Poppins; */
+    font-weight: 700;
+  }
+  .btn-light{
+    position: absolute;
+    margin-top: 0%;
+    margin-left: 90%;
+    border-radius: 3px;
+    border: 2px solid white;  
+    background:none; 
+    color: #ffffff;
+    font-size: 14px;
+    font-family: Poppins;
+    font-weight: 500;
+    padding: 5px;
+  }
+
+/* Quick Search */
+#QuickSearch{
+    width:100%;
+    margin-right:0%;
+    margin-top:10%;
+    margin-bottom: 7%;
+    padding-bottom: 2%;
+    display: inline-block;
+    /* margin-left: -204px; */
+    border:1px solid red;
+}
+
+#QuickHeading{
+    display:block;
+    color:#ac2e31;
+    font-size:30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    margin-left: 16%;
+    margin-top:0;
+}
+
+
+#QuickSubHeading{
+    line-height: 2;
+    color:gray;
+    font-size:20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    margin-left: 16%;
+}
+
+.conatiner {
+    margin-right: 15%;
+    margin-left: 15%;
+}
+
+.tileContainer{
+    height: 275px;;
+    width:23%;
+    float:left;
+    /* padding: 10%; */
+    margin-top: 2%;
+    margin-left: 2%;
+    margin-right:4%;
+    box-shadow: 7px 10px 17px gray;
+    border-radius: 10px;
+}
+
+.tileContainer:hover{
+    transform:scale(1.1);
+}
+.tileComponent1{
+    width:100%;
+    justify-content: center;
+    height:180px;
+}
+
+a > img {
+    width:100%;
+    height:180px;  
+    border-radius: 10px;
+}
+
+.tileComponent1 > img{
+    width:100%;
+    height:180px;
+    border-radius: 10px; 
+}
+
+
+.tileComponent2{
+    /* width:40%;
+    float: left;
+    height:100px;
+    margin-left: 5%;
+    margin-top: 12%; */
+    display:inline-block;
+}
+.componentHeading{
+    color:#ac2e31;
+    font-size: 25px;
+    margin-top:2%;
+}
+
+.componentHeading > a{
+    color:#ac2e31 !important;
+    text-decoration: none !important;
+}
+
+.componentSubHeading{
+    color:gray;
+    font-size: 15px;
+}
+
+@media screen and (max-width:1500px){
+    .text-light{
+        margin-left:85%
+    }
+    .btn-light{
+        margin-left: 91%;
+    }
+
+    .dropdown{
+        height:55px;
+        width:55%;
+        margin-left: 37%;
+        margin-top: -11%;
+    }
+
+    select{
+        height:50px;
+        width:35%
+    }
+
+    #QuickSearch{
+        margin-top:7%;
+    }
+
+    #QuickHeading{
+        margin-left: 12%;
+    }
+
+    #QuickSubHeading{
+        margin-left:12%;
+    }
+}
+
+@media screen and (max-width:1400px){
+    .text-light{
+        margin-left:85%
+    }
+    .btn-light{
+        margin-left: 91%;
+    }
+
+    .dropdown{
+        height:55px;
+        width:55%;
+        margin-left: 37%;
+        margin-top: -11%;
+    }
+
+    select{
+        height:50px;
+        width:35%
+    }
+
+    #QuickSearch{
+        margin-top:7%;
+    }
+
+    #QuickHeading{
+        margin-left: 11%;
+    }
+
+    #QuickSubHeading{
+        margin-left:11%;
+    }
+}
+
+@media screen and (max-width:1300px){
+    .text-light{
+        margin-left:85%
+    }
+    .btn-light{
+        margin-left: 91%;
+    }
+
+    #logo{
+        margin-left:522px;
+    }
+
+    #heading{
+        margin-left: 455px;
+    }
+    .dropdown{
+        height:55px;
+        width:55%;
+        margin-left: 37%;
+        margin-top: -13%;
+    }
+
+    select{
+        height:50px;
+        width:33%
+    }
+
+    #QuickSearch{
+        margin-top:9%;
+    }
+
+    #QuickHeading{
+        margin-left: 8%;
+    }
+
+    #QuickSubHeading{
+        margin-left:8%;
+    }
+}
+
+@media screen and (max-width:1200px){
+    .text-light{
+        margin-left:80%
+    }
+    .btn-light{
+        margin-left: 89%;
+    }
+    #logo{
+        margin-left:425px;
+    }
+
+    #heading{
+        margin-left: 395px;
+    }
+    .dropdown{
+        height:55px;
+        width:55%;
+        margin-left: 35%;
+        margin-top: -13%;
+    }
+
+    select{
+        height:50px;
+        width:33%
+    }
+
+    #QuickSearch{
+        margin-top:9%;
+    }
+
+    #QuickHeading{
+        margin-left: 6%;
+    }
+
+    #QuickSubHeading{
+        margin-left:6%;
+    }
+
+}
+
+@media screen and (max-width:1000px){
+    .text-light{
+        margin-left:75%
+    }
+    .btn-light{
+        margin-left: 85%;
+    }
+
+        #logo{
+            margin-left:330px;
+        }
+
+        #heading{
+            margin-left: 275px;
+        }
+        .dropdown{
+            height:55px;
+            width:55%;
+            margin-left: 30%;
+            margin-top: -17%;
+        }
+
+        select{
+            height:50px;
+            width:37%;
+        }
+
+        #QuickSearch{
+            margin-top:12%;
+        }
+
+        #QuickHeading{
+            margin-left: 7%;
+        }
+
+        #QuickSubHeading{
+            margin-left:7%;
+        }
+
+        .tileContainer{
+            margin-left: 7%;
+            width:35%
+        }
+    }
+
+    @media screen and (max-width:800px){
+        .text-light{
+            margin-left:75%
+        }
+        .btn-light{
+            margin-left: 85%;
+        }
+    
+        #logo{
+            margin-left:250px;
+        }
+    
+        #heading{
+            margin-left: 205px;
+        }
+        .dropdown{
+            height:55px;
+            width:65%;
+            margin-left: 30%;
+            margin-top: -20%;
+        }
+    
+        select{
+            height:50px;
+            width:37%;
+           }
+    
+        #QuickSearch{
+            margin-top:12%;
+        }
+    
+        #QuickHeading{
+            margin-left: 7%;
+        }
+    
+        #QuickSubHeading{
+            margin-left:7%;
+        }
+    
+        .tileContainer{
+            margin-left: 7%;
+            width:35%
+        }
+    }
+
+ @media screen and (max-width:600px){
+    .text-light{
+        margin-left:70%
+    }
+    .btn-light{
+        margin-left: 85%;
+    }
+    
+        #logo{
+            margin-left:135px;
+        }
+    
+        #heading{
+            margin-left: 150px;
+            font-size: 32px;
+            margin-top: -220;
+        }
+        .dropdown{
+            height:55px;
+            width:65%;
+            margin-left: 30%;
+            margin-top: -27%;
+        }
+    
+        select{
+            height:50px;
+            width:37%;
+            }
+    
+        #QuickSearch{
+            margin-top:20%;
+        }
+    
+        #QuickHeading{
+            margin-left: 7%;
+        }
+    
+        #QuickSubHeading{
+            margin-left:7%;
+        }
+    
+        .tileContainer{
+            margin-left: 7%;
+            width:50%;
+            padding-bottom:10px;
+        }
+    }
+
+footer{
+    background-color:black;
+    color:white;
+    width:100%;
+    font-weight: bolder;
+    text-align: center;
+    letter-spacing: 1px;
+    padding-top: 0px;
+    padding-bottom: 10px;
 }
