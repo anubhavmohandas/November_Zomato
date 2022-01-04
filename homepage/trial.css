@@ -41,6 +41,11 @@ a{
     text-decoration: none;
 }
 
+.mydark{
+    background-color:black;
+    color:white;
+}
+
 /* Style buttons */
 .btn {
     color: white !important; /* White text */

@@ -8,20 +8,9 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    <style>
-        body{
-            background-color:white;
-            color:black
-        }
-        .mydark{
-            background-color:black;
-            color:white
-        }
-    </style>
     <script>
         function changeMode(){
             var mybody = document.body;
-            // if body have class mydark than remove else add
             mybody.classList.toggle("mydark")
         }
     </script>
@@ -35,7 +24,7 @@
             <button class="btn btn-light"> <a href="../Forms/Register.html">Register</a></button>
             &nbsp;
             <span class="text-light"> <a href="../Forms/login.html">Login</a></span>
-            <button class="btn" onclick="changeMode()"><i class="fa fa-lightbulb fa-lg"></i></button>
+            <button class="btn" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Change Mode"  onclick="changeMode()"><i class="fa fa-lightbulb fa-lg"></i></button>
         </div>
         
     <div id="search">

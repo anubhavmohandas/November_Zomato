@@ -28,11 +28,6 @@ a{
     text-decoration: none;
 }
 
-.fa{
-    color: #fff;
-    margin-left:-15%;
-}
-
 /* Search */
 #overlay{
     display:flex;
