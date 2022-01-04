@@ -4,21 +4,6 @@ body{
 }
 
 /* Start from the Header */
-#header {
-    height: 50px;
-    background-color: #eadede;
-}
-
-#social {
-    float: right;
-    margin-right: 1%;
-}
-
-.socialhandle {
-    height:50px;
-    width:50px;
-}
-
 #icon{
     margin-left: 1%;
     margin-top:-1%;
