@@ -3,8 +3,6 @@ function changeMode(){
     mybody.classList.toggle("mydark")
 }
 
-
-
 let url ="http://localhost:8525/city"
 let hotelurl="http://localhost:8525/hotel?city="
 
@@ -39,3 +37,10 @@ const getHotel = () => {
     })
 }
 
+function coupon(){
+    document.getElementById('coupon-container').style.visibility = "visible";
+}
+
+function closeDiv(){
+    document.getElementById('coupon-container').style.visibility = "hidden";
+}

@@ -116,11 +116,91 @@ a{
     justify-content: center;
 }
 
+#coupon-container{
+    position:relative;
+    max-width: 350px;
+    text-align:center;
+    background-color: #AEFEFF;
+    margin: 100px auto 30px auto;
+    visibility: hidden;
+}
 
+#coupon-container .close{
+    width:24px;
+    position:absolute;
+    top: 16px;
+    right: 16px;
+    cursor:pointer;
+    z-index:100;
+    background:transparent;
+    border:none;
+}
+#coupon-container .gift{
+    position:absolute;
+    width:180px;
+    top: -120px;
+    right: 70px;
+}
+
+#coupon-container .bg{
+    position:absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+
+#coupon-container h2, p, .discount, .code, .btn{
+    position: relative;
+}
+
+#coupon-container h2{
+    font-weight: 900;
+    font-size: 30px;
+    padding-top: 75px;
+    margin-bottom:0;
+}
+
+#coupon-container p{
+    font-size: 20px;
+    margin: 8px;
+}
+
+#coupon-container .discount{
+    font-size: 56px;
+    font-weight: 300;
+    padding-top:5%;
+}
+
+#coupon-container .code{
+    font-weight: 900;
+    font-size: 45px;
+}
+
+#coupon-container .btn{
+    text-decoration: none;
+    background: red;
+    padding:16px;
+    display: inline-block;
+    color: #fff;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 24px;
+    font-weight: 800;
+    margin-top: 10%;
+    margin-left: 1px;
+    letter-spacing:1px;
+}
+
+#coupon-container .btn:hover{
+    background: darkred;
+
+}
 
 select{
     height:60px;
-    width:35%
+    width:35%;
+    border-radius: 15px;
+    text-align: center;
 }
 
 .text-light{
