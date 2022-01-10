@@ -9,6 +9,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="homepage.js"></script>
 
 </head>
 
@@ -32,17 +33,11 @@
         Find Restaurants near you
     </div>
     <div class="dropdown">
-        <select>
+        <select id = "city" onChange="getHotel()">
             <option>SELECT CITY</option>
-            <option>Surat</option>
-            <option>Shornaur</option>
-            <option>Chennai</option>
         </select>
-        <select class="restaurantSelect">
+        <select class="restaurantSelect" id = "hotels">
             <option>SELECT RESTAURANTS</option>
-            <option>Udupi Hotel</option>
-            <option>Sarvottam Hotel</option>
-            <option>Hot & Spicy</option>
         </select>
     </div>
 
@@ -143,5 +138,8 @@
         <hr />
         <span> Created By Anubhav Inc. | &copy; All rights reserved</span>
     </footer>
+    <script>
+        window.onload=getCity()
+    </script>
 </body>
 </html>
