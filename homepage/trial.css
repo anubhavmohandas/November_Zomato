@@ -43,7 +43,7 @@ a{
 
 .mydark{
     background-color:black;
-    color:white;
+    /* color:white; */
 }
 
 /* Style buttons */
@@ -116,7 +116,7 @@ a{
     justify-content: center;
 }
 
-#coupon-container{
+#coupon-container {
     position:relative;
     max-width: 350px;
     text-align:center;
@@ -232,7 +232,7 @@ select{
 #QuickSearch{
     width:100%;
     margin-right:0%;
-    margin-top:10%;
+    margin-top:-30%;
     margin-bottom: 7%;
     padding-bottom: 2%;
     display: inline-block;
@@ -280,6 +280,7 @@ select{
 .tileContainer:hover{
     transform:scale(1.1);
 }
+
 .tileComponent1{
     width:100%;
     justify-content: center;

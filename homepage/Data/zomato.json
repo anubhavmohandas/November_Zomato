@@ -894,6 +894,20 @@
         "name": "Udipi Restaurant Valsad",
         "city_name": "Valsad",
         "city": "33"
+    },
+
+    {
+        "_id": "100",
+        "name": "Sarvottam Restaurant",
+        "city_name": "Surat",
+        "city": "29"
+    },
+
+    {
+        "_id": "101",
+        "name": "Om Restaurant",
+        "city_name": "Surat",
+        "city": "29"
     }
 
   ]
