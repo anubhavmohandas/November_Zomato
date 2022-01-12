@@ -102,6 +102,23 @@ select{
     padding: 5px;
   }
 
+  
+.mydark{
+    background-color:black;
+}
+
+.btn {
+    color: white !important; /* White text */
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    overflow: hidden;
+    outline: none;
+    margin-left: -15%;
+    margin-top: -0.5%;
+}
+
+
 /* Quick Search */
 #QuickSearch{
     width:100%;

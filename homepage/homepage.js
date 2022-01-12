@@ -1,3 +1,8 @@
+function changeMode(){
+    var mybody = document.body;
+    mybody.classList.toggle("mydark")
+}
+
 let url ="http://localhost:8525/city"
 let hotelurl="http://localhost:8525/hotel?city="
 
