@@ -123,6 +123,7 @@ a{
     background-color: #AEFEFF;
     margin: 100px auto 30px auto;
     visibility: hidden;
+    box-shadow: 0 0 0 1000px rgba(0,0,0,0.5);
 }
 
 #coupon-container .close{
